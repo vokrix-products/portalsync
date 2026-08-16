@@ -21,3 +21,5 @@ Set `DEEPSEEK_API_KEY` in the environment to enable DeepSeek extraction for unst
 Dashboard: https://portalsync.vokrix.co, Vercel: portalsync, Railway: f2cccb72-2481-4a0d-ae8c-aee77cc78705
 Railway: portalsync
 Cloudflare: portalsync.vokrix.co
+
+Billing: price_1U55xS2c9uGCcgMSqOvmGt19
