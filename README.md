@@ -19,3 +19,4 @@ python3 run_tests.py
 Set `DEEPSEEK_API_KEY` in the environment to enable DeepSeek extraction for unstructured documents.
 
 Dashboard: https://portalsync.vokrix.co, Vercel: portalsync, Railway: f2cccb72-2481-4a0d-ae8c-aee77cc78705
+Railway: portalsync
