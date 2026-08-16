@@ -1,1 +1,6 @@
-{ "name": "portalsync", "private": true, "version": "1.0.0", "type": "module", "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" }, "dependencies": { "@supabase/supabase-js": "^2.45.4", "react": "^18.3.1", "react-dom": "^18.3.1" }, "devDependencies": { "@vitejs/plugin-react": "^4.3.4", "vite": "^6.0.5" } }
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+})
