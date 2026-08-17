@@ -48,7 +48,56 @@ export function SignIn() {
 
   if (step === 'code') {
     return (
-      <div className='flex min-h-svh items-center justify-center p-4'>
+      <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>@supports not (color: oklch(1 0 0)){`[data-auth] *{box-sizing:border-box}
+[data-auth] .flex{display:flex}
+[data-auth] .inline-flex{display:inline-flex}
+[data-auth] .min-h-svh{min-height:100vh}
+[data-auth] .items-center{align-items:center}
+[data-auth] .justify-center{justify-content:center}
+[data-auth] .p-4{padding:1rem}
+[data-auth] .w-full{width:100%}
+[data-auth] .max-w-sm{max-width:24rem}
+[data-auth] .space-y-6>*+*{margin-top:1.5rem}
+[data-auth] .space-y-4>*+*{margin-top:1rem}
+[data-auth] .space-y-2>*+*{margin-top:.5rem}
+[data-auth] .space-y-1>*+*{margin-top:.25rem}
+[data-auth] .text-center{text-align:center}
+[data-auth] .text-2xl{font-size:1.5rem;line-height:2rem}
+[data-auth] .text-sm{font-size:.875rem;line-height:1.25rem}
+[data-auth] .text-xs{font-size:.75rem;line-height:1rem}
+[data-auth] .text-base{font-size:1rem;line-height:1.5rem}
+[data-auth] .font-semibold{font-weight:600}
+[data-auth] .font-medium{font-weight:500}
+[data-auth] .text-muted-foreground{color:#6e7380}
+[data-auth] .text-foreground{color:#0d0d12}
+[data-auth] .relative{position:relative}
+[data-auth] .absolute{position:absolute}
+[data-auth] .inset-0{top:0;right:0;bottom:0;left:0}
+[data-auth] .border-t{border-top:1px solid #d0d5dd}
+[data-auth] .border{border:1px solid #d0d5dd}
+[data-auth] .border-input{border-color:#d0d5dd}
+[data-auth] .bg-background{background-color:#fff}
+[data-auth] .bg-primary{background-color:#14151f}
+[data-auth] .text-primary-foreground{color:#fafbfc}
+[data-auth] .rounded-md{border-radius:.375rem}
+[data-auth] .h-9{height:2.25rem}
+[data-auth] .h-4{height:1rem}
+[data-auth] .w-4{width:1rem}
+[data-auth] .px-3{padding-left:.75rem;padding-right:.75rem}
+[data-auth] .px-2{padding-left:.5rem;padding-right:.5rem}
+[data-auth] .py-2{padding-top:.5rem;padding-bottom:.5rem}
+[data-auth] .py-1{padding-top:.25rem;padding-bottom:.25rem}
+[data-auth] .mr-2{margin-right:.5rem}
+[data-auth] .uppercase{text-transform:uppercase}
+[data-auth] .underline{text-decoration:underline}
+[data-auth] .gap-2{gap:.5rem}
+[data-auth] .shadow-xs{box-shadow:0 1px 2px 0 rgba(0,0,0,.05)}
+[data-auth] .whitespace-nowrap{white-space:nowrap}
+[data-auth] .shrink-0{flex-shrink:0}
+[data-auth] input[type='email'],[data-auth] input[type='text']{display:block;width:100%;height:2.25rem;border:1px solid #d0d5dd;border-radius:.375rem;padding:.25rem .75rem;font-size:.875rem;line-height:1.25rem;background:#fff;color:#0d0d12}
+[data-auth] button{cursor:pointer;font:inherit;color:inherit}
+[data-auth] form button[type='submit']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #14151f;border-radius:.375rem;background-color:#14151f;color:#fafbfc;font-size:.875rem;font-weight:500}
+[data-auth] button[type='button']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #d0d5dd;border-radius:.375rem;background-color:#fff;color:#0d0d12;font-size:.875rem;font-weight:500}`}</style>
         <div className='w-full max-w-sm space-y-6'>
           <div className='space-y-1 text-center'>
             <h1 className='text-2xl font-semibold'>Check your email</h1>
@@ -83,7 +132,56 @@ export function SignIn() {
   }
 
   return (
-    <div className='flex min-h-svh items-center justify-center p-4'>
+    <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>@supports not (color: oklch(1 0 0)){`[data-auth] *{box-sizing:border-box}
+[data-auth] .flex{display:flex}
+[data-auth] .inline-flex{display:inline-flex}
+[data-auth] .min-h-svh{min-height:100vh}
+[data-auth] .items-center{align-items:center}
+[data-auth] .justify-center{justify-content:center}
+[data-auth] .p-4{padding:1rem}
+[data-auth] .w-full{width:100%}
+[data-auth] .max-w-sm{max-width:24rem}
+[data-auth] .space-y-6>*+*{margin-top:1.5rem}
+[data-auth] .space-y-4>*+*{margin-top:1rem}
+[data-auth] .space-y-2>*+*{margin-top:.5rem}
+[data-auth] .space-y-1>*+*{margin-top:.25rem}
+[data-auth] .text-center{text-align:center}
+[data-auth] .text-2xl{font-size:1.5rem;line-height:2rem}
+[data-auth] .text-sm{font-size:.875rem;line-height:1.25rem}
+[data-auth] .text-xs{font-size:.75rem;line-height:1rem}
+[data-auth] .text-base{font-size:1rem;line-height:1.5rem}
+[data-auth] .font-semibold{font-weight:600}
+[data-auth] .font-medium{font-weight:500}
+[data-auth] .text-muted-foreground{color:#6e7380}
+[data-auth] .text-foreground{color:#0d0d12}
+[data-auth] .relative{position:relative}
+[data-auth] .absolute{position:absolute}
+[data-auth] .inset-0{top:0;right:0;bottom:0;left:0}
+[data-auth] .border-t{border-top:1px solid #d0d5dd}
+[data-auth] .border{border:1px solid #d0d5dd}
+[data-auth] .border-input{border-color:#d0d5dd}
+[data-auth] .bg-background{background-color:#fff}
+[data-auth] .bg-primary{background-color:#14151f}
+[data-auth] .text-primary-foreground{color:#fafbfc}
+[data-auth] .rounded-md{border-radius:.375rem}
+[data-auth] .h-9{height:2.25rem}
+[data-auth] .h-4{height:1rem}
+[data-auth] .w-4{width:1rem}
+[data-auth] .px-3{padding-left:.75rem;padding-right:.75rem}
+[data-auth] .px-2{padding-left:.5rem;padding-right:.5rem}
+[data-auth] .py-2{padding-top:.5rem;padding-bottom:.5rem}
+[data-auth] .py-1{padding-top:.25rem;padding-bottom:.25rem}
+[data-auth] .mr-2{margin-right:.5rem}
+[data-auth] .uppercase{text-transform:uppercase}
+[data-auth] .underline{text-decoration:underline}
+[data-auth] .gap-2{gap:.5rem}
+[data-auth] .shadow-xs{box-shadow:0 1px 2px 0 rgba(0,0,0,.05)}
+[data-auth] .whitespace-nowrap{white-space:nowrap}
+[data-auth] .shrink-0{flex-shrink:0}
+[data-auth] input[type='email'],[data-auth] input[type='text']{display:block;width:100%;height:2.25rem;border:1px solid #d0d5dd;border-radius:.375rem;padding:.25rem .75rem;font-size:.875rem;line-height:1.25rem;background:#fff;color:#0d0d12}
+[data-auth] button{cursor:pointer;font:inherit;color:inherit}
+[data-auth] form button[type='submit']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #14151f;border-radius:.375rem;background-color:#14151f;color:#fafbfc;font-size:.875rem;font-weight:500}
+[data-auth] button[type='button']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #d0d5dd;border-radius:.375rem;background-color:#fff;color:#0d0d12;font-size:.875rem;font-weight:500}`}</style>
       <div className='w-full max-w-sm space-y-6'>
         <div className='space-y-1 text-center'>
           <h1 className='text-2xl font-semibold'>{(import.meta.env.VITE_PRODUCT_NAME as string) || 'Get started'}</h1>
