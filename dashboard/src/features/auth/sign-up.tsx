@@ -49,7 +49,7 @@ export function SignUp() {
   if (step === 'code') {
     return (
       <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth]{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:1rem;box-sizing:border-box}
-[data-auth] *{box-sizing:border-box}
+[data-auth]{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:1rem;background-color:#ffffff}[data-auth] *{box-sizing:border-box}[data-auth] label{display:block;font-size:.875rem;font-weight:500;line-height:1.25rem;color:#0d0d12;margin-bottom:.5rem}[data-auth] .text-destructive{color:#dc2626}
 [data-auth] .flex{display:flex}
 [data-auth] .inline-flex{display:inline-flex}
 [data-auth] .min-h-svh{min-height:100vh}
@@ -134,7 +134,7 @@ export function SignUp() {
 
   return (
     <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth]{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:1rem;box-sizing:border-box}
-[data-auth] *{box-sizing:border-box}
+[data-auth]{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:1rem;background-color:#ffffff}[data-auth] *{box-sizing:border-box}[data-auth] label{display:block;font-size:.875rem;font-weight:500;line-height:1.25rem;color:#0d0d12;margin-bottom:.5rem}[data-auth] .text-destructive{color:#dc2626}
 [data-auth] .flex{display:flex}
 [data-auth] .inline-flex{display:inline-flex}
 [data-auth] .min-h-svh{min-height:100vh}
