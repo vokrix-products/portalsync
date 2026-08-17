@@ -11,13 +11,6 @@ export function SignUp() {
   const [step, setStep] = useState<'email' | 'code'>('email')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const [hasAccount, setHasAccount] = useState(false)
-
-  const handleEmailBlur = async () => {
-    if (!email) return
-    const { data } = await supabase.rpc('user_exists', { p_email: email })
-    setHasAccount(data === true)
-  }
 
   const handleGoogle = async () => {
     await supabase.auth.signInWithOAuth({
@@ -112,11 +105,8 @@ export function SignUp() {
         <form onSubmit={handleSendCode} className='space-y-4'>
           <div className='space-y-2'>
             <Label htmlFor='email'>Email</Label>
-            <Input id='email' type='email' value={email} onChange={(e) => { setEmail(e.target.value); setHasAccount(false) }} onBlur={handleEmailBlur} required />
+            <Input id='email' type='email' value={email} onChange={(e) => setEmail(e.target.value)} required />
           </div>
-          {hasAccount && (
-            <p className='text-sm text-muted-foreground'>An account already exists. <Link to='/sign-in' className='underline text-foreground'>Log in instead</Link></p>
-          )}
           {error && <p className='text-sm text-destructive'>{error}</p>}
           <Button type='submit' className='w-full' disabled={loading}>
             {loading ? 'Sending code...' : 'Start free trial'}
