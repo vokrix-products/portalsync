@@ -48,7 +48,8 @@ export function SignIn() {
 
   if (step === 'code') {
     return (
-      <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth] *{box-sizing:border-box}
+      <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth]{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:1rem;box-sizing:border-box}
+[data-auth] *{box-sizing:border-box}
 [data-auth] .flex{display:flex}
 [data-auth] .inline-flex{display:inline-flex}
 [data-auth] .min-h-svh{min-height:100vh}
@@ -132,7 +133,8 @@ export function SignIn() {
   }
 
   return (
-    <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth] *{box-sizing:border-box}
+    <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth]{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:1rem;box-sizing:border-box}
+[data-auth] *{box-sizing:border-box}
 [data-auth] .flex{display:flex}
 [data-auth] .inline-flex{display:inline-flex}
 [data-auth] .min-h-svh{min-height:100vh}
