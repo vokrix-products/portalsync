@@ -48,7 +48,7 @@ export function SignIn() {
 
   if (step === 'code') {
     return (
-      <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>@supports not (color: oklch(1 0 0)){`[data-auth] *{box-sizing:border-box}
+      <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth] *{box-sizing:border-box}
 [data-auth] .flex{display:flex}
 [data-auth] .inline-flex{display:inline-flex}
 [data-auth] .min-h-svh{min-height:100vh}
@@ -97,7 +97,7 @@ export function SignIn() {
 [data-auth] input[type='email'],[data-auth] input[type='text']{display:block;width:100%;height:2.25rem;border:1px solid #d0d5dd;border-radius:.375rem;padding:.25rem .75rem;font-size:.875rem;line-height:1.25rem;background:#fff;color:#0d0d12}
 [data-auth] button{cursor:pointer;font:inherit;color:inherit}
 [data-auth] form button[type='submit']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #14151f;border-radius:.375rem;background-color:#14151f;color:#fafbfc;font-size:.875rem;font-weight:500}
-[data-auth] button[type='button']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #d0d5dd;border-radius:.375rem;background-color:#fff;color:#0d0d12;font-size:.875rem;font-weight:500}`}</style>
+[data-auth] button[type='button']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #d0d5dd;border-radius:.375rem;background-color:#fff;color:#0d0d12;font-size:.875rem;font-weight:500}`}}</style>
         <div className='w-full max-w-sm space-y-6'>
           <div className='space-y-1 text-center'>
             <h1 className='text-2xl font-semibold'>Check your email</h1>
@@ -132,7 +132,7 @@ export function SignIn() {
   }
 
   return (
-    <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>@supports not (color: oklch(1 0 0)){`[data-auth] *{box-sizing:border-box}
+    <div data-auth='1' className='flex min-h-svh items-center justify-center p-4'><style>{`@supports not (color: oklch(1 0 0)){[data-auth] *{box-sizing:border-box}
 [data-auth] .flex{display:flex}
 [data-auth] .inline-flex{display:inline-flex}
 [data-auth] .min-h-svh{min-height:100vh}
@@ -181,7 +181,7 @@ export function SignIn() {
 [data-auth] input[type='email'],[data-auth] input[type='text']{display:block;width:100%;height:2.25rem;border:1px solid #d0d5dd;border-radius:.375rem;padding:.25rem .75rem;font-size:.875rem;line-height:1.25rem;background:#fff;color:#0d0d12}
 [data-auth] button{cursor:pointer;font:inherit;color:inherit}
 [data-auth] form button[type='submit']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #14151f;border-radius:.375rem;background-color:#14151f;color:#fafbfc;font-size:.875rem;font-weight:500}
-[data-auth] button[type='button']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #d0d5dd;border-radius:.375rem;background-color:#fff;color:#0d0d12;font-size:.875rem;font-weight:500}`}</style>
+[data-auth] button[type='button']{display:inline-flex;align-items:center;justify-content:center;width:100%;height:2.25rem;padding:0 1rem;border:1px solid #d0d5dd;border-radius:.375rem;background-color:#fff;color:#0d0d12;font-size:.875rem;font-weight:500}`}}</style>
       <div className='w-full max-w-sm space-y-6'>
         <div className='space-y-1 text-center'>
           <h1 className='text-2xl font-semibold'>{(import.meta.env.VITE_PRODUCT_NAME as string) || 'Get started'}</h1>
